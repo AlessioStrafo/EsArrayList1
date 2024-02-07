@@ -13,10 +13,8 @@ public class Main {
         Student studente2 = new Student("Romina", 22);
         Student studente3 = new Student("Pietro", 24);
         Student studente4 = new Student("Maria", 25);
-        List<Student> studente = Arrays.asList(studente1,studente2);
-        System.out.println(studente);
-        System.out.println("--------------------------------------------------------------");
-        //List<Student> studente = new ArrayList<>();
+
+        List<Student> studente = new ArrayList<>();
         studente.add(studente1);
         studente.add(studente2);
         studente.add(studente3);
