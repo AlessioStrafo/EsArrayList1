@@ -6,8 +6,6 @@ public class Student {
         this.eta = eta;
         this.nome = nome;
     }
-
-
     @Override
     public String toString() {
         return "Student{" +
